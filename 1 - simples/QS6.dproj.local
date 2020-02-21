@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/20 20:11:47.000.601,=C:\Users\Edilsa\Documents\Delphi\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Unit1.pas</Transaction>
+    <Transaction>2020/02/20 20:14:00.000.154,C:\Users\Edilsa\Documents\Delphi\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Unit1.dfm=C:\Users\Edilsa\Documents\Delphi\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Formulario.dfm</Transaction>
+    <Transaction>2020/02/20 20:14:00.000.154,C:\Users\Edilsa\Documents\Delphi\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Unit1.pas=C:\Users\Edilsa\Documents\Delphi\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Formulario.pas</Transaction>
+  </Transactions>
+</BorlandProject>
