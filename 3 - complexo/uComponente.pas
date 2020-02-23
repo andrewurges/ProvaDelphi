@@ -6,7 +6,6 @@ uses
   SysUtils;
 
 type
-
   TComponente = class;
 
   TComponenteArray = array of TComponente;
@@ -77,6 +76,9 @@ procedure TComponente.RedimensionarComponentes(aDiferencaAltura: Integer; aDifer
       else
       if aComponente.FComponentes[I] is TFrame then
       begin
+        aComponente.FComponentes[I].Largura := aComponente.FComponentes[I].Largura + aDiferencaLargura;
+        aComponente.FComponentes[I].Altura := aComponente.FComponentes[I].Altura + aDiferencaAltura;
+
         Redimensionar(aComponente.FComponentes[I]);
       end;
     end;
@@ -99,8 +101,7 @@ begin
   end;
 
   Finalize(FComponentes[vIndice]);
-  Move(FComponentes[vIndice + 1], FComponentes[vIndice],
-  (Length(FComponentes) - vIndice - 1) * SizeOf(TComponente) + 1);
+  Move(FComponentes[vIndice + 1], FComponentes[vIndice], (Length(FComponentes) - vIndice - 1) * SizeOf(TComponente) + 1);
   SetLength(FComponentes, Length(FComponentes) - 1);
 end;
   
